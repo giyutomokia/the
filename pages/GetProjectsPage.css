@@ -1,0 +1,188 @@
+.get-projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 58px;
+    height: 10px;
+    left: 676px;
+    top: 121px;
+  }
+  
+  .registration-form-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+    width: 488px;
+    height: 78px;
+    margin-bottom: 80px;
+  }
+  
+  .registration-form-heading {
+    font-family: 'Covered By Your Grace';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom:1px;
+    line-height: 110%;
+    color: #2DA950;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: -80px;
+    right: -680px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #000;
+  }
+  
+  .registration-form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap:2px;
+    width: 588px;
+    height: auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap:1px;
+    width: 100%;
+    height: 174px;
+  }
+  
+  .form-label1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 27px;
+    margin-top:20px;
+    text-align: center;
+    color: #827A7A;
+    margin-bottom:20px;
+  }
+  .form-label2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 27px;
+    text-align: center;
+    color: #827A7A;
+    margin-bottom:1px;
+  }
+  
+  .form-input {
+    box-sizing: border-box;
+    width: 100%;
+    text-align :center;
+    padding: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+
+    font-size: 20px;
+    line-height: 27px;
+    margin-right:10px;
+    color: #d1cccc;
+    border: 1px solid #131111;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .error-message {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ff0000;
+  }
+  
+  .submit-button {
+    width: 550px;
+    height: 50px;
+    font-family: 'Manrope';
+    font-style: normal;
+    margin-top:-90px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom:1px;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color: #1c1c1c;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #454444;
+  }
+  .heading{
+    font-size:50px;
+    text-align :center;
+    margin-top:1px;
+  }
+  .close-button:hover {
+    color: rgb(81, 78, 78); /* Change the color or add any other hover effect */
+  }
+  .form-input:hover {
+    border-color: #999;
+    background-color: #f6f1f1; /* Change the border color or add any other hover effect */
+  }
+ 
+
+.logo img {
+    width: 60px; /* Adjust the width as needed */
+    height: 20px;
+    margin-right:1260px;
+    margin-top:-80px;
+    
+  }
+ 
+.close-button-container {
+    position: relative; /* Ensure relative positioning */
+   
+    border-radius: 50%;
+    color: #000; 
+    background-color:rgb(248, 245, 245);
+    cursor: pointer;
+    display: flex;
+    top:-240px;
+    left:600px;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Close button icon */
+  .close-icon {
+    font-size: 24px; /* Adjust size of close icon */
+    color: #0c0b0b;
+    border: 2px solid black; /* Add black border */
+    border-radius: 50%; /* Ensure it's a circle */
+    width: 32px; /* Adjust width and height as needed */
+    height: 32px; /* Adjust width and height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Add a white background */
+    color: black; /* Add black color for the icon */
+    padding-top: 1px; /* Adjust vertical padding to center the X */
+  }
+     /* Change color of close icon */
+  
+  

@@ -1,0 +1,124 @@
+.success-container {
+    position: relative;
+    text-align: center;
+    margin-top: 70px; /* Adjust margin top as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .success-stories {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 34px;
+    color: #2DA950;
+    margin-bottom: 20px; /* Adjust margin bottom as needed */
+  }
+  
+  .success-journey {
+    position: relative;
+    width: 588px;
+    height: 134px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .success-journey::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+  .image-container {
+    margin-top:150px;
+    flex-shrink: 0; 
+    
+    margin-left: 40px;
+    
+  }
+  
+  .success-image {
+    width: 900px;
+     /* Adjust the width as needed */
+  }
+  /* Matter.css */
+
+.image-container {
+    flex-shrink: 0; /* Prevent image from growing */
+    margin-right: 520px; /* Add margin to create space between text and image */
+  }
+  
+ /* Matter.css */
+
+.additional-content {
+    position: absolute;
+    width: 320px;
+    height: 192px;
+    left: 980px; /* Adjust left position to center it */
+    top: 450px; /* Adjust top position as needed */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    color: #1C1C1C;
+    text-align: left;
+  }
+  .carousel-dots {
+    margin-top:50px;
+    display: flex;
+    justify-content: left;
+    gap: 10px; /* Adjust the gap between dots */
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #fff; /* White by default */
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: rgb(26, 67, 26); /* Green for active dot */
+  }
+  
+  .dot {
+    background-color: #f1eaea;
+  }
+  .dot:hover{
+    background-color:#1C1C1C;
+  }
+  .explore-button {
+    position: absolute;
+    bottom: 70px; /* Adjust distance from bottom */
+    left: 73%;
+    transform: translateX(-50%);
+    padding: 20px 10px;
+    border-radius: 30px;
+    background-color: #06180b; /* Circular background color */
+    color: #fff;
+    border: none;
+    width:160px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #fdf8f8; /* Change background color on hover */
+    color: #0d3514;
+  }

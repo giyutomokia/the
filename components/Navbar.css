@@ -1,0 +1,82 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 1360px;
+  height: 100px; /* Adjust height as needed */
+  left: 30px;
+  top: 0;
+  background: #FFFFFF;
+  border: 0.01px solid #efe6e6; /* Black border */
+  border-radius: 60px; /* Adjust border-radius for circular edges */
+  padding: 0 20px; /* Add padding for content */
+  overflow: hidden; /* Hide overflow for pseudo-elements */
+  position: relative; /* Add relative positioning */
+}
+
+/* Pseudo-elements to create border */
+.navbar::before,
+.navbar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  z-index: -1;
+  border-radius: inherit;
+}
+.navbar::before {
+  left: -0.01px; /* Adjust to avoid overlapping with the border */
+}
+.navbar::after {
+  right: -0.01px; /* Adjust to avoid overlapping with the border */
+}
+
+/* Right-aligned items in the navbar */
+.navbar-right {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  right: 25px; /* Adjusted right position */
+  transform: translateY(-50%); /* Adjusted to center vertically */
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+/* Left-aligned items in the navbar */
+.navbar-left {
+  /* Add styles as needed */
+}
+
+/* Image in the navbar */
+.navbar-img {
+  width: 5%; /* Adjust image width as needed */
+  /* Add styles for the navbar image */
+}
+
+/* Styles for navbar links */
+.navbar-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+
+  padding: 10px 20px; /* Add padding for better button appearance */
+  border-radius: 50px; /* Set border-radius for circular edges */
+  background-color: transparent; /* Transparent background */
+  border: 0.01px solid #efe6e6; /* Transparent border */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Add transition effect */
+}
+
+/* Styles for navbar links on hover */
+.navbar-link:hover {
+  background-color: #000000; /* Change background color on hover */
+  color: #f5ecec; /* Change text color on hover */
+  border-color: #615e5e0a; /* Change border color on hover */
+}
+
+/* Additional styling for subsequent navbar links */
+.navbar-link + .navbar-link {
+  margin-left: 30px; /* Adjust the gap between links */
+}

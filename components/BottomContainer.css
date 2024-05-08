@@ -1,0 +1,71 @@
+/* BottomContainer.css */
+
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding: 20px;
+    height: 500px;
+    background-color: #c0bcbc; /* Gray background color */
+  }
+  
+  .left-content {
+    width: 60%;
+    margin-top: 90px;
+    margin-right: 140px; /* 40% width for left content */
+  }
+  
+  .right-content {
+    margin-top: 50px;
+    width: 60%; /* 60% width for right content */
+    text-align: left;
+  }
+  
+  .do-you-offer {
+    font-weight: normal;
+    color: #0f0e0e;
+  }
+  
+  .toggle-content {
+    cursor: pointer;
+    margin-left: 10px;
+    float: right;
+  }
+  
+  .addition-content {
+    color: #555; /* Gray color */
+    display: block;
+    margin-top: 20px; /* Add margin to separate from the question */
+  }
+  
+  .whats-on-your-mind {
+    margin-left:60px;
+    margin-top:10px;
+    bottom: 5px;
+    font-family: 'Covered By Your Grace';
+    font-weight: normal;
+    color: #342d2d; /* Gray color */
+  }
+  
+  .ask-question {
+    margin-left:40px;
+    font-size: 52px;
+    font-weight: 600;
+    color: #111010; /* Gray color */
+    margin-top: 30px; /* Move the text 20px more to the top */
+  }
+  
+  /* Add styles for the horizontal line */
+  .horizontal-line {
+    border-top: 1px solid #333030; /* Adjust color and thickness as needed */
+    width: 100%; /* Adjust width as needed */
+    margin-top: 25px; /* Adjust margin as needed */
+  }
+  .union img {
+     /* Position the image absolutely within the parent container */
+    margin-top: 50px; /* Move the image 40px down from its previous position */
+    right : 90px; /* Position the image at the left */
+    width: 40%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
